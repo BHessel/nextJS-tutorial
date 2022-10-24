@@ -1,6 +1,7 @@
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import Head from "next/head";
+
 export default function Home() {
   return (
     <>
@@ -19,8 +20,8 @@ export default function Home() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <Link href="/ninjas">
-          <a className={styles.btn}>See Ninja Listing</a>
+        <Link href="/users">
+          <a className={styles.btn}>See User Listing</a>
         </Link>
       </div>
     </>
